@@ -1,0 +1,47 @@
+{
+  "name": "r-select",
+  "version": "0.0.1",
+  "description": "React Select Interafce Component",
+  "main": "./dist/r-select.core.js",
+  
+  "dependencies": {
+    "lodash": "~3.9.3",
+    "react": "~0.13.3"
+  },
+  "devDependencies": {
+    "gulp": "~3.9.0",
+    "reactify": "~1.1.1",
+    "gulp-browserify": "~0.5.1",
+    "gulp-rename": "~1.2.2",
+    "gulp-uglify": "~1.2.0",
+    "gulp-less": "~3.0.3",
+    "gulp-autoprefixer": "~2.3.1",
+    "require-dir": "~0.3.0"
+  },
+
+  "scripts": {
+    "prebuild": "rm -rf dist",
+    "build": "gulp prod",
+    "prepublish": "npm run build"
+  },
+  
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/misha-panyushkin/r-select"
+  },
+
+  "keywords": [
+    "react",
+    "select",
+    "multiple",
+    "single",
+    "component",
+    "js",
+    "javascript"
+  ],
+  "author": "Misha Panyushkin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/misha-panyushkin/r-select/issues"
+  }
+}

@@ -1,0 +1,1 @@
+require('gulp').task('prod', ['lessprod', 'reactprod']);
